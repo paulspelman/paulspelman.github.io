@@ -340,6 +340,7 @@ img {
     display: grid;
     grid-template-columns: .5fr repeat(12, 1fr) .5fr;
     grid-template-rows: repeat(10, 10%);
+    grid-row-gap: 10px;
     width: 100%;
     max-width: 1200px;
     height: 50vh;
