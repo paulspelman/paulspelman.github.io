@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    background-color: #eaeaea;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 90vh;
+    margin: 0 auto;
+}
+
+p {
+    flex: 1;
+    color: #333;
+    font-size: 2.8vw;
+    font-family: 'Schoolbell', cursive;
+    text-align: left;
+    transform: rotate(-10deg)  translateX(5%);
+    align-self: center;
+    padding: 0 1em 0 0;
+    max-width: 
+}
+
+.pic {
+    flex: .5;
+    transform: rotate(20deg) translateX(20%);
+    align-self: center;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
