@@ -591,6 +591,14 @@ img {
 
 /******* ABOUT ME PAGE STYLE NON-GRID & GRID *******/
 
+h4 {
+    margin-bottom: 0;    
+    }
+
+.copy-me-2 p, .copy-me-3 p {
+      margin: 0;   
+    }
+
 .grid-me-page {
     display: -webkit-box;
     display: -ms-flexbox;
