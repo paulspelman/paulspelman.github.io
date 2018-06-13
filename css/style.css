@@ -286,7 +286,7 @@ img {
             flex: 1;
     color: #03d67a;
     text-transform: uppercase;
-    font-size: .8em;
+    font-size: .9em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     line-height: 1;
@@ -380,7 +380,7 @@ img {
 .view {
     color: #03d67a;
     text-transform: uppercase;
-    font-size: .8em;
+    font-size: .9em;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     line-height: 3;
@@ -1514,7 +1514,7 @@ padding: .5em 0;
 
  
 .copy-home, .copy-project, .purell-copy, .lux-copy, .dial-copy {
-    font-size: .8em;
+    font-size: .9em;
 }
 
 .copy-home {
@@ -1556,7 +1556,7 @@ padding: .5em 0;
 }    
  
 .category {
-    font-size: .6em;
+    font-size: .8em;
     padding: 3em 0 0;
 }
 
@@ -1581,7 +1581,7 @@ padding: .5em 0;
 }
 
 .copy-home, .copy-project, .purell-copy, .lux-copy, .dial-copy {
-    font-size: .8em; 
+    font-size: .9em; 
 }
 
 .projects, .about {
@@ -1605,7 +1605,7 @@ padding: .5em 0;
 }    
 
 .category {
-    font-size: .6em;
+    font-size: .8em;
 }
 
 }}
@@ -1636,7 +1636,7 @@ padding: .5em 0;
     
     
 .category {
-    font-size: .7em;
+    font-size: .8em;
 }}
 
 
