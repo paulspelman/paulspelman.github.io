@@ -19,6 +19,8 @@ html {
 
 body {
   margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -264,6 +266,7 @@ img {
     z-index: 2;
     text-align: center;
     white-space: nowrap;
+    text-rendering: geometricPrecision;
 }
 
 .copy-home {
@@ -273,8 +276,7 @@ img {
     font-size: .6em;
     color: #eaeaea;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    letter-spacing: .2px;
+    font-weight: 400;
     line-height: 1.5;
     max-width: 400px;
     margin: 0 auto;
@@ -304,6 +306,7 @@ img {
     text-transform: uppercase;
     font-size: 0.5em;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     letter-spacing: 1px;
     z-index: 2;
     white-space: nowrap;
@@ -363,6 +366,7 @@ img {
     z-index: 2;
     text-align: left;
     white-space: nowrap;
+    text-rendering: geometricPrecision;
 }
 
 .copy-home {
@@ -371,9 +375,8 @@ img {
     font-size: .6em;
     color: #eaeaea;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
-    letter-spacing: .2px;
     margin: 0 auto;
     max-width: none;
     padding: 0;
@@ -399,6 +402,7 @@ img {
     text-transform: uppercase;
     font-size: 0.5em;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     letter-spacing: 1px;
     z-index: 2;
     white-space: normal;
@@ -474,6 +478,7 @@ img {
     padding: 0;
     margin: 1em 0 .5em 0;
     border: 0;
+    text-rendering: geometricPrecision;
 }
 
 @supports (display: grid) { .title-project {
@@ -488,8 +493,7 @@ img {
     color: #eaeaea;
     font-size: .7em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    letter-spacing: .2px;
+    font-weight: 400;
     line-height: 1.5;
     max-width: 900px;
     margin: 0 auto;
@@ -585,7 +589,6 @@ img {
 
 h4 {
     margin-bottom: 0;
-    letter-spacing: .5px;
     }
 
 .copy-me-2 p, .copy-me-3 p {
@@ -695,8 +698,7 @@ h4 {
     color: #eaeaea;
     font-size: .8em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    letter-spacing: .2px;
+    font-weight: 400;
     line-height: 1.5;
     max-width: 900px;
     margin: 0 2em;
@@ -717,8 +719,7 @@ h4 {
     color: #eaeaea;
     font-size: .8em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    letter-spacing: .2px;
+    font-weight: 400;
     line-height: 1.5;
     max-width: 900px;
     margin: 0 2em;
@@ -740,8 +741,7 @@ h4 {
     color: #eaeaea;
     font-size: .8em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    letter-spacing: .2px;
+    font-weight: 400;
     line-height: 1.5;
     max-width: 900px;
     margin: 0 2em;
@@ -1282,6 +1282,7 @@ padding: .5em 0;
     padding: 0;
     margin: 1em 0 0 0;
     border: 0;
+    text-rendering: geometricPrecision;
 }
 
 .purell-copy {
@@ -1294,7 +1295,7 @@ padding: .5em 0;
     font-size: .7em;
     color: #eaeaea;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
     padding: .25em 1.5em;
 }
@@ -1318,7 +1319,7 @@ padding: .5em 0;
     font-size: .7em;
     color: #eaeaea;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
     padding: .25em 1.5em;
 }
@@ -1360,7 +1361,7 @@ padding: .5em 0;
     font-size: .7em;
     color: #eaeaea;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
     padding: .25em 1.5em;
 }
@@ -1415,6 +1416,7 @@ padding: .5em 0;
     padding: 0;
     margin: 1em 0 0 0;
     border: 0;
+    text-rendering: geometricPrecision;
 }
 
 .purell-copy {
@@ -1426,7 +1428,7 @@ padding: .5em 0;
     font-size: .7em;
     color: #eaeaea;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
 }
 
@@ -1446,7 +1448,7 @@ padding: .5em 0;
     font-size: .7em;
     color: #eaeaea;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
 }
 
@@ -1480,7 +1482,7 @@ padding: .5em 0;
     font-size: .7em;
     color: #eaeaea;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.5;
 }
 
