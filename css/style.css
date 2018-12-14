@@ -284,6 +284,7 @@ li a:hover:before {
 .project:hover .view-button p {
 	color: #000;
 }
+}
 	
 @media (hover: hover) {
 .project:hover .view-button:before {
