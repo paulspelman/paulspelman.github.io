@@ -204,6 +204,10 @@ li a:hover:before {
 	margin-bottom: 10%;
 }
 
+
+
+@media (hover: hover) {
+
 .project img {
 	-webkit-filter: saturate(0);
 	filter: saturate(0);
@@ -211,11 +215,11 @@ li a:hover:before {
 	transition: all .3s ease-in-out;
 }
 
-@media (hover: hover) {
 .project:hover img {
 	-webkit-filter: saturate(100%);
 	filter: saturate(100%);
 }
+
 }
 
 .category {
