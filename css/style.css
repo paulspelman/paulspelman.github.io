@@ -87,8 +87,10 @@ li a {
 	transition: all 0.3s ease-in-out;
 }
 
+@media (hover: hover) {
 li a:hover {
 	color: #000;
+}
 }
 
 li a:before {
@@ -108,11 +110,13 @@ li a:before {
 	z-index: -1;
 }
 
+@media (hover: hover) {
 li a:hover:before {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 	-webkit-transform-origin: 0 0;
 	transform-origin: 0 0;
+}
 }
 
 /********** LOGO  **********/
@@ -144,8 +148,10 @@ li a:hover:before {
 	transition: all .1s ease-in-out;
 }
 
+@media (hover: hover) {
 .face:hover {
 	opacity: 0;
+}
 }
 
 .face img, .face3 img {
@@ -205,9 +211,11 @@ li a:hover:before {
 	transition: all .3s ease-in-out;
 }
 
+@media (hover: hover) {
 .project:hover img {
 	-webkit-filter: saturate(100%);
 	filter: saturate(100%);
+}
 }
 
 .category {
@@ -272,13 +280,16 @@ li a:hover:before {
 	text-align: center;
 }
 
+@media (hover: hover) {
 .project:hover .view-button p {
 	color: #000;
 }
-
+	
+@media (hover: hover) {
 .project:hover .view-button:before {
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
+}
 }
 
 .view-button:before {
@@ -524,11 +535,13 @@ li a:hover:before {
 	z-index: -1;
 }
 
+@media (hover: hover) {
 .collaborators a:hover:before, .about-me a:hover:before, .next-prev-home a:hover:before {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
-
+}
+	
 /**********  MEDIA QUERIES  **********/
 
 @media (max-width: 800px) {
