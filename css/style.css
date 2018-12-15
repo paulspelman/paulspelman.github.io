@@ -546,7 +546,7 @@ li a:hover:before {
 	transform: scaleX(1);
 }
 }
-	
+
 /**********  MEDIA QUERIES  **********/
 
 @media (max-width: 800px) {
@@ -563,13 +563,13 @@ li a:hover:before {
 		margin-bottom: 15%;
 	}
 	.advertising, .about-me {
-		margin: 40px;
+		margin: 30px;
 	}
 	.intro {
-		margin: 80px 40px;
+		margin: 80px 30px;
 	}
 	header {
-		margin: 30px 40px;
+		margin: 30px;
 	}
 	.project {
 		width: 100%;
