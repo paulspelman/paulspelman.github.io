@@ -330,13 +330,7 @@ li a:hover:before {
 }
 
 .project-page h2 {
-	font-weight: 500;
 	font-size: 3rem;
-	margin: .4rem 0 0 0;
-	line-height: 1;
-	letter-spacing: -.05rem;
-	-webkit-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out;
 }
 
 .project-page .project-copy p {
@@ -361,7 +355,7 @@ li a:hover:before {
 	width: 100%;
 	height: auto;
 	max-width: 960px;
-	margin: 0 0 .5rem 0;
+	margin: 0 0 1.5rem 0;
 }
 
 .next-prev-home {
@@ -477,7 +471,7 @@ li a:hover:before {
 .video-project {
 	width: 100%;
 	max-width: 960px;
-	margin: 0 0 .8rem 0;
+	margin: 0 0 1.3rem 0;
 }
 
 .aspect-ratio {
@@ -582,6 +576,9 @@ li a:hover:before {
 @media (max-width: 600px) {
 	html {
 		font-size: 14px;
+	}
+	.project-page h2 {
+		font-size: 2.2rem;
 	}
 }
 
