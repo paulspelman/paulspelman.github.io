@@ -1,21 +1,27 @@
 // IMAGE WIPE
 
-function isScrolledIntoView(elem) {
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+function isInViewport (el) {
+    var rect = el.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
+    );
 }
 
-$(window).on("load resize scroll",function(e){
+var wipers = document.querySelectorAll('.wipe');
 
-    $('.wipe').each(function () {
-        if (isScrolledIntoView(this) === true) {
-            $(this).addClass('reveal-image');
+wipers.forEach((wipers => {
+
+    var wipeOn = function (event) {
+        if (isInViewport(wipers)) {
+            wipers.classList.add('reveal-image');
         }
-    });
+    };
 
-});
+window.addEventListener('load', wipeOn);
+window.addEventListener('scroll', wipeOn);
+window.addEventListener('resize', wipeOn);
+
+}));
