@@ -31,7 +31,16 @@ a {
 	color: #fff;
 }
 
+.img-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
 .img-container img {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
 }
 
@@ -127,6 +136,7 @@ li a:hover:before {
 	display: flex;
 	position: relative;
 	width: 2.5rem;
+	height: 4.125rem;
 	-webkit-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
 }
