@@ -1,27 +1,25 @@
-// IMAGE WIPE
-
-function isInViewport (el) {
-    var rect = el.getBoundingClientRect();
-    return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) && /*or $(window).height() */
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth) /*or $(window).width() */
-    );
+// NodeList.prototype.forEach() polyfill - MDN
+ 
+if (window.NodeList && !NodeList.prototype.forEach) {
+	NodeList.prototype.forEach = function (callback, thisArg) {
+		thisArg = thisArg || window;
+		for (var i = 0; i < this.length; i++) {
+			callback.call(thisArg, this[i], i, this);
+		}
+	};
 }
 
-var wipers = document.querySelectorAll('.wipe');
+// Image Wipe On
 
-wipers.forEach((wipers => {
-
-    var wipeOn = function (event) {
-        if (isInViewport(wipers)) {
-            wipers.classList.add('reveal-image');
-        }
-    };
-
+function wipeOn() {
+let wipers = document.querySelectorAll('.image');
+wipers.forEach(function(wipers) {
+    let rect = wipers.getBoundingClientRect();
+    if (rect.top < (window.innerHeight || document.documentElement.clientHeight)) {
+        wipers.classList.add('reveal-image');
+    }
+});
+};
 window.addEventListener('load', wipeOn);
 window.addEventListener('scroll', wipeOn);
 window.addEventListener('resize', wipeOn);
-
-}));
