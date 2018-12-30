@@ -12,9 +12,9 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 // Image Wipe On
 
 function wipeOn() {
-let wipers = document.querySelectorAll('.image');
+var wipers = document.querySelectorAll('.wipe');
 wipers.forEach(function(wipers) {
-    let rect = wipers.getBoundingClientRect();
+    var rect = wipers.getBoundingClientRect();
     if (rect.top < (window.innerHeight || document.documentElement.clientHeight)) {
         wipers.classList.add('reveal-image');
     }
