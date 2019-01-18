@@ -417,7 +417,7 @@ li a:hover:before {
 }
 
 .about-copy {
-	max-width: 38rem;
+	max-width: 44rem;
 	margin-bottom: 3rem;
 }
 
@@ -425,6 +425,10 @@ li a:hover:before {
 	margin-bottom: 1rem;
 	line-height: 1.4;
 	font-size: 1.1rem;
+}
+
+.phone-number {
+	white-space: nowrap;
 }
 
 /**********  IMAGE WIPE ON SCROLL  **********/
@@ -522,7 +526,7 @@ li a:hover:before {
 	position: relative;
 	top: 0;
 	left: 0;
-	padding: 0 0 .15rem 0;
+	padding: 0 0 .05rem 0;
 	overflow: hidden;
 }
 
@@ -531,7 +535,6 @@ li a:hover:before {
 	background-color: #ffd800;
 	content: "";
 	width: 100%;
-	;
 	height: .05rem;
 	left: 0;
 	bottom: 0;
