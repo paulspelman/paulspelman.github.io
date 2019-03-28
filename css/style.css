@@ -35,6 +35,7 @@ a {
 	position: relative;
 	padding-bottom: 56.25%;
 	height: 0;
+	margin: 0 0 .8rem 0;
 }
 
 .img-container img {
@@ -49,17 +50,24 @@ a {
 h2 {
 	font-weight: 400;
 	font-size: 2rem;
-	margin: .4rem 0 0 0;
+	margin: 0 0 .8rem 0;
 	line-height: 1;
 	letter-spacing: -.05rem;
-	-webkit-transition: all 1s ease-in-out;
-	transition: all 1s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 h3 {
+	font-weight: 600;
+	font-size: 1.3rem;
+	margin: 2rem 0 .5rem 0;
+}
+
+h4 {
 	font-weight: 400;
 	font-size: .8rem;
 }
+
 
 /**********  HEADER & NAV  **********/
 
@@ -186,7 +194,7 @@ li a:hover:before {
 	letter-spacing: -.05rem;
 }
 
-.advertising {
+.projects-section {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -207,7 +215,7 @@ li a:hover:before {
 }
 
 .project:nth-of-type(2n) {
-	margin-top: 10%;
+	margin-top: 15%;
 }
 
 .project:last-of-type {
@@ -255,7 +263,7 @@ li a:hover:before {
 	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.4;
-	margin: .6rem 0 0 0;
+	margin: 0 0 .8rem 0;
 }
 
 /**********  VIEW PROJECT BUTTON  **********/
@@ -265,7 +273,7 @@ li a:hover:before {
 	position: relative;
 	overflow: hidden;
 	background-color: #464646;
-	margin: .8rem 0 0 0;
+	margin: 0 0 1.5rem 0;
 	background-color: none;
 	-webkit-transition: all .2s cubic-bezier(0.2, 0.63, 0.12, 1);
 	transition: all .2s cubic-bezier(0.2, 0.63, 0.12, 1);
@@ -341,24 +349,17 @@ li a:hover:before {
 
 .project-page h2 {
 	font-size: 3rem;
+	margin: 0 0 1.2rem 0;
 }
 
 .project-page .project-copy p {
 	font-size: 1.1rem;
-	margin: .8rem 0;
+	margin: 0 0 .8rem 0;
 	max-width: 44rem;
 }
 
-.project-page .project-copy p:first-of-type {
-	margin: 1.2rem 0 0 0;
-}
-
 .project-page .project-copy p:last-of-type {
-	margin: .6rem 0 1.2rem 0;
-}
-
-.project-page .project-copy p:only-of-type {
-	margin: 1.2rem 0;
+	margin: 0 0 1.2rem 0;
 }
 
 .image-project img {
@@ -392,19 +393,34 @@ li a:hover:before {
 
 .project-page-project.print-page .project-copy p {
 	font-size: 1.1rem;
-	margin: 3rem 0 1rem 0;
+	margin: 0 0 1.2rem 0;
 	max-width: 44rem;
+}
+
+.project-page-project.print-page .project-copy h2 {
+	margin: 0 0 1.2rem 0;
 }
 
 .portrait {
 	width: 60%;
 }
 
+
+/******* CODING PROJECTS PAGE ******/
+
+.project-page-project.print-page .project-copy p.coding-page-intro {
+	margin: 0 0 3rem 0;
+}
+
+
+
 /**********  ABOUT ME PAGE STYLE  **********/
 
 .about-me {
 	color: #fff;
 	margin: 80px;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
 }
 
 .about-heading {
@@ -516,13 +532,9 @@ li a:hover:before {
 	padding: .5rem 0;
 }
 
-.work-stories-video {
-	padding-bottom: 75%;
-}
-
 /**********  UNDERLINE LINK TREATMENT  **********/
 
-.collaborators a, .about-me a, .next-prev-home a {
+.underlined a, .about-me a, .next-prev-home a {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -530,7 +542,7 @@ li a:hover:before {
 	overflow: hidden;
 }
 
-.collaborators a:before, .about-me a:before, .next-prev-home a:before {
+.underlined a:before, .about-me a:before, .next-prev-home a:before {
 	position: absolute;
 	background-color: #ffd800;
 	content: "";
@@ -548,7 +560,7 @@ li a:hover:before {
 }
 
 @media (hover: hover) {
-.collaborators a:hover:before, .about-me a:hover:before, .next-prev-home a:hover:before {
+.underlined a:hover:before, .about-me a:hover:before, .next-prev-home a:hover:before {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
@@ -569,7 +581,7 @@ li a:hover:before {
 	.project {
 		margin-bottom: 15%;
 	}
-	.advertising, .about-me {
+	.projects-section, .about-me {
 		margin: 30px;
 	}
 	.intro {
@@ -592,6 +604,7 @@ li a:hover:before {
 	}
 	.project-page h2 {
 		font-size: 2.2rem;
+		margin: 0 0 1rem 0;
 	}
 }
 
