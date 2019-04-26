@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paul Spelman - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Freelance Creative Director/Writer, currently based in NYC.">
+    <meta property="og:title" content="Paul Spelman - Creative Director/Writer">
+    <meta property="og:description" content="Freelance Creative Director/Writer, currently based in NYC.">
+    <meta property="og:image" content="https://www.paulspelman.com/images/social/og-image.jpg">
+    <meta property="og:url" content="https://www.paulspelman.com/index.html">
+    <meta name="twitter:card" content="https://www.paulspelman.com/images/social/og-image.jpg">
+
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/bye7cjh.css" type="text/css">
+
+    <script defer src="js/scripts.js"></script>
+  
+      <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-107726390-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-107726390-1');
+    </script>
+
+</head>
+
+<body>
+
+
+
+    <div class="wrapper">
+
+        <header>
+
+            <div class="logo-container">
+                <a href="/">
+                    <div class="face3"><img src="images/logo/face3.png" alt="Paul Spelman Emoji"></div>
+                    <div class="face"><img src="images/logo/face1.png" alt="Paul Spelman Emoji"></div>
+                </a>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="/">Projects</a></li>
+                    <span class="emdash">&mdash;</span>
+                    <li><a href="/about.html">About Me</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+
+        <section class="projects-section project-page">
+
+            <div class="project-page-project print-page">
+                <div class="project-copy">
+
+                    <h2>Twitter Medication</h2>
+
+                    <p>Our current president tweets like a madman. He mocks people, insults our allies, spreads conspiracy theories, and often just blasts out nonsensical rants. I built this contraption as a personal project to bring to life 
+                        the feeling of living with this madness. It spits out one painkiller every time the president tweets. The more he tweets, the more painkillers end up in the bowl.</p>
+                    
+                    <div class="video-project reveal-image">
+                        <div class="aspect-ratio">
+                            <iframe src="https://player.vimeo.com/video/332550277?byline=0&portrait=0" frameborder="0"
+                                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <h3>How it works</h3>
+                    <p>A script running on a laptop constantly scans twitter to see if the president has posted a new tweet. As soon as a new tweet appears, a command is sent to the microcontroller and a small 
+                        motor turns 360 degrees, dispensing a pill which falls out of the mouth and into the bowl.</p>
+
+                    <h3>Technical details and gear</h3>
+                    <p>I used the Twit library to access the Twitter API, and the Javascript is running via Node.js. The Arduino is hooked up to a driver and a stepper motor, which turns a plastic disc inside a DIY pill dispenser. 
+                        The pill dispenser was made from some old protein powder tubs, plastic sheets, a funnel, and a bunch of duct tape. The rubber mask is from Amazon.</p>
+
+                    <h3>Code and Reference</h3>
+                    <p class="underlined"><a href="https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-communication-with-node-js/" target="_blank">These</a> 
+                        <a href="https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-control-of-an-arduino/" target="_blank">labs</a> on serial communication and serial input from Tom Igoe at NYU ITP were very helpful. 
+                        After a much simpler earlier design proved unreliable, I based the pill dispensing mechanism on <a href="https://www.youtube.com/watch?v=tcoCbNUKJPc&list=WL&index=17&t=0s" target="_blank">this prototype</a> posted by Frank Charbonier.</p>
+
+                    <div class="video-project reveal-image">
+                        <div class="aspect-ratio">
+                            <iframe src="https://player.vimeo.com/video/332536144?byline=0&portrait=0" frameborder="0"
+                                                webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="image-project reveal-image">
+                            <img src="images/medication/medication-project-1-medium.jpg 960w" srcset="images/medication/medication-project-1-small.jpg 480w, images/medication/medication-project-1-medium.jpg 960w, images/medication/medication-project-1-large.jpg 1920w"
+                                        sizes="(max-width : 800px) calc(100vw - 80px), 960px" alt="First photo of project during build process">
+                    </div>
+
+                    <div class="image-project reveal-image">
+                            <img src="images/medication/medication-project-2-medium.jpg 960w" srcset="images/medication/medication-project-2-small.jpg 480w, images/medication/medication-project-2-medium.jpg 960w, images/medication/medication-project-2-large.jpg 1920w"
+                                        sizes="(max-width : 800px) calc(100vw - 80px), 960px" alt="Second photo of project during build process">
+                    </div>
+                    
+                    <div class="image-project reveal-image">
+                            <img src="images/medication/medication-project-3-medium.jpg 960w" srcset="images/medication/medication-project-3-small.jpg 480w, images/medication/medication-project-3-medium.jpg 960w, images/medication/medication-project-3-large.jpg 1920w"
+                                        sizes="(max-width : 800px) calc(100vw - 80px), 960px" alt="Third photo of project during build process">
+                    </div>
+
+                    <div class="image-project reveal-image">
+                            <img src="images/medication/medication-project-4-medium.jpg 960w" srcset="images/medication/medication-project-4-small.jpg 480w, images/medication/medication-project-4-medium.jpg 960w, images/medication/medication-project-4-large.jpg 1920w"
+                                        sizes="(max-width : 800px) calc(100vw - 80px), 960px" alt="Fourth photo of project during build process">
+                    </div>
+                        
+
+                </div>
+
+                <div class="next-prev-home">
+                    <a href="origins.html">Next Project</a>
+                    <span class="emdash">&mdash;</span>
+                    <a href="/">Home</a>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+
+    </div>
+
+</body>
+
+</html>
