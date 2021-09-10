@@ -180,7 +180,7 @@ li a:hover:before {
 
 .intro {
 	margin: 120px 0 120px 80px;
-	max-width: 400px;
+	max-width: 960px;
 	-webkit-transition: all .5s ease-in-out;
 	transition: all .5s ease-in-out;
 }
@@ -224,7 +224,7 @@ li a:hover:before {
 
 
 
-@media (hover: hover) {
+/* @media (hover: hover) {
 
 .project img {
 	-webkit-filter: saturate(0);
@@ -238,7 +238,7 @@ li a:hover:before {
 	filter: saturate(100%);
 }
 
-}
+} */
 
 .category {
 	font-weight: 300;
@@ -272,7 +272,7 @@ li a:hover:before {
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	background-color: #464646;
+	background-color: #1f2e48;
 	margin: 0 0 1.5rem 0;
 	background-color: none;
 	-webkit-transition: all .2s cubic-bezier(0.2, 0.63, 0.12, 1);
@@ -317,7 +317,7 @@ li a:hover:before {
 
 .view-button:before {
 	position: absolute;
-	background-color: #ffd800;
+	background-color: #c7c7c7;
 	content: "";
 	width: 100%;
 	;
@@ -349,17 +349,21 @@ li a:hover:before {
 
 .project-page h2 {
 	font-size: 3rem;
-	margin: 0 0 1.2rem 0;
+	margin: 0 0 2.2rem 0;
 }
 
 .project-page .project-copy p {
 	font-size: 1.1rem;
-	margin: 0 0 .8rem 0;
-	max-width: 44rem;
+	margin: 0 0 1.2rem 0;
+	max-width: 960px;
 }
 
 .project-page .project-copy p:last-of-type {
-	margin: 0 0 1.2rem 0;
+	margin: 0 0 2.2rem 0;
+}
+
+.copy-between {
+  margin: 5rem 0 2.2rem 0;
 }
 
 .image-project img {
@@ -382,7 +386,7 @@ li a:hover:before {
 	margin: 0 .2rem 0 0;
 }
 
-.half {
+.side-by-side {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -394,7 +398,7 @@ li a:hover:before {
 .project-page-project.print-page .project-copy p {
 	font-size: 1.1rem;
 	margin: 0 0 1.2rem 0;
-	max-width: 44rem;
+	max-width: 960px;
 }
 
 .project-page-project.print-page .project-copy h2 {
@@ -433,7 +437,7 @@ li a:hover:before {
 }
 
 .about-copy {
-	max-width: 44rem;
+	max-width: 960px;
 	margin-bottom: 3rem;
 }
 
@@ -512,6 +516,21 @@ li a:hover:before {
 }
 
 .aspect-ratio iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.aspect-ratio-square {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 100%;
+}
+
+.aspect-ratio-square iframe {
 	position: absolute;
 	width: 100%;
 	height: 100%;
