@@ -144,7 +144,7 @@ li a:hover:before {
 	display: flex;
 	position: relative;
 	width: 2.5rem;
-	height: 4.125rem;
+	height: 100%;
 	-webkit-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
 }
@@ -607,7 +607,7 @@ li a:hover:before {
 		margin: 80px 30px;
 	}
 	header {
-		margin: 30px;
+    margin: 40px 30px;
 	}
 	.project {
 		width: 100%;
@@ -623,7 +623,7 @@ li a:hover:before {
 	}
 	.project-page h2 {
 		font-size: 2.2rem;
-		margin: 0 0 1rem 0;
+		margin: 0 0 2rem 0;
 	}
 }
 
