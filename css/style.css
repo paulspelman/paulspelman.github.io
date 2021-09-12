@@ -1,4 +1,4 @@
-/**********  GENERAL  **********/
+*********  GENERAL  *********
 
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -222,24 +222,6 @@ li a:hover:before {
 	margin-bottom: 10%;
 }
 
-
-
-/* @media (hover: hover) {
-
-.project img {
-	-webkit-filter: saturate(0);
-	filter: saturate(0);
-	-webkit-transition: all .3s ease-in-out;
-	transition: all .3s ease-in-out;
-}
-
-.project:hover img {
-	-webkit-filter: saturate(100%);
-	filter: saturate(100%);
-}
-
-} */
-
 .category {
 	font-weight: 300;
 	font-size: .8rem;
@@ -272,8 +254,8 @@ li a:hover:before {
 	display: inline-block;
 	position: relative;
 	overflow: hidden;
-	background-color: #1f2e48;
-	margin: 0 0 1.5rem 0;
+	background-color: #1b283f;
+	margin: 0;
 	background-color: none;
 	-webkit-transition: all .2s cubic-bezier(0.2, 0.63, 0.12, 1);
 	transition: all .2s cubic-bezier(0.2, 0.63, 0.12, 1);
@@ -303,21 +285,18 @@ li a:hover:before {
 }
 
 @media (hover: hover) {
-.project:hover .view-button p {
+.view-button p:hover {
 	color: #000;
 }
-}
-	
-@media (hover: hover) {
-.project:hover .view-button:before {
+.view-button:hover:before {
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
-}
+} 
 }
 
 .view-button:before {
 	position: absolute;
-	background-color: #c7c7c7;
+	background-color: #dadada;
 	content: "";
 	width: 100%;
 	;
@@ -429,11 +408,16 @@ li a:hover:before {
 
 .about-heading {
 	display: inline-block;
-	line-height: 3.5rem;
-	font-size: 3rem;
+	line-height: 3rem;
+	font-size: 2.6rem;
 	letter-spacing: -.05rem;
 	margin-bottom: 1rem;
 	border-bottom: 2px solid #ffd800;
+}
+
+.job-title {
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
 .about-copy {
@@ -601,13 +585,13 @@ li a:hover:before {
 		margin-bottom: 15%;
 	}
 	.projects-section, .about-me {
-		margin: 30px;
+		margin: 20px;
 	}
 	.intro {
-		margin: 80px 30px;
+		margin: 80px 20px;
 	}
 	header {
-    margin: 40px 30px;
+    margin: 40px 20px;
 	}
 	.project {
 		width: 100%;
@@ -618,9 +602,6 @@ li a:hover:before {
 }
 
 @media (max-width: 600px) {
-	html {
-		font-size: 14px;
-	}
 	.project-page h2 {
 		font-size: 2.2rem;
 		margin: 0 0 2rem 0;
