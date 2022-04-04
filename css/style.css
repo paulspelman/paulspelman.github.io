@@ -590,7 +590,7 @@ li a:hover:before {
 		margin-bottom: 15%;
 	}
 	.projects-section, .about-me {
-		margin: 20px;
+		margin: 20px 20px 60px 20px;
 	}
 	.intro {
 		margin: 80px 20px;
