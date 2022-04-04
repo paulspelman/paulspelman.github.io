@@ -369,6 +369,7 @@ li a:hover:before {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+  column-gap: 1rem;
 	max-width: 960px;
 }
 
@@ -599,6 +600,9 @@ li a:hover:before {
 	.portrait {
 		width: 100%;
 	}
+  .side-by-side {
+    display: inline;
+  }
 }
 
 @media (max-width: 600px) {
