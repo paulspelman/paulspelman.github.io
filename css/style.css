@@ -600,9 +600,6 @@ li a:hover:before {
 	.portrait {
 		width: 100%;
 	}
-  .side-by-side {
-    display: inline;
-  }
 }
 
 @media (max-width: 600px) {
@@ -610,6 +607,9 @@ li a:hover:before {
 		font-size: 2.2rem;
 		margin: 0 0 2rem 0;
 	}
+  .side-by-side {
+    display: inline;
+  }
 }
 
 @media (max-width: 330px) {
