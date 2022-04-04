@@ -373,6 +373,10 @@ li a:hover:before {
 	max-width: 960px;
 }
 
+.no-gap {
+  column-gap: 0;
+}
+
 /******* PRINT PAGE ******/
 
 .project-page-project.print-page .project-copy p {
