@@ -602,6 +602,9 @@ li a:hover:before {
 		margin: 2rem 0 .5rem 0;
 		font-size: 1.3rem;
 	}
+	strong {
+		font-weight: normal;
+	}
 	.project {
 		width: 100%;
 	}
