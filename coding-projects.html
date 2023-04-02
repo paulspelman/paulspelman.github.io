@@ -57,6 +57,7 @@
         <section class="projects-section project-page">
 
             <div class="project-page-project print-page">
+
                 <div class="project-copy">
 
                     <h2>Coding projects</h2>
@@ -82,6 +83,54 @@
                             <source src="video/coding-projects/day-rate-video.mp4" type="video/mp4">
                         </video>
                 </div>
+
+
+
+                <div class="project-copy">
+
+                    <h3>Presidential headache</h3>
+
+                    <p>Our 45th president used to tweet like a madman. He would mock people, insult our allies, spread conspiracy theories, and often just blast out nonsensical rants. I built this machine as a personal project to bring to life 
+                        the feeling of living in this chaotic environment. It spits out one ibuprofen pill every time the president tweets. The more he tweets, the more pills end up in the bowl.
+                
+                </div>
+
+    
+                <div class="video-project">
+                    <div class="aspect-ratio">
+                        <iframe src="https://player.vimeo.com/video/337645659?byline=0&portrait=0" frameborder="0"
+                                        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="project-copy">
+
+                    <p><strong>How it worked:</strong><br>A script running on a laptop constantly scanned twitter to see if the president had posted a new tweet on @realDonaldTrump. As soon as a new tweet appeared, a command was sent to the microcontroller and a small 
+                        motor turned 360 degrees, dispensing a pill which fell out of the mouth and into the bowl.</p>
+
+                    
+                    <p><strong>Technical details and gear:</strong><br>I used the Twit library to access the Twitter API, and the Javascript is running via Node.js. The Arduino is hooked up to a driver and a stepper motor, which turns a plastic disc inside a DIY pill dispenser. 
+                        The pill dispenser was made from some old protein powder tubs, plastic sheets, a funnel, and a bunch of duct tape. The rubber mask is from Amazon.</p>
+
+                    
+                    <p><strong>Code and Reference:</strong><br><span class="underlined"><a href="https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-communication-with-node-js/" target="_blank">These</a> 
+                        <a href="https://itp.nyu.edu/physcomp/labs/labs-serial-communication/lab-serial-control-of-an-arduino/" target="_blank">labs</a> on serial communication and serial input from Tom Igoe at NYU ITP were very helpful. 
+                        After a much simpler earlier design proved unreliable, I based the pill dispensing mechanism on <a href="https://www.youtube.com/watch?v=tcoCbNUKJPc&list=WL&index=17&t=0s" target="_blank">this prototype</a> posted by Frank Charbonier.</p>
+                
+                </div>
+
+                <div class="video-project">
+                    <div class="aspect-ratio">
+                        <iframe src="https://player.vimeo.com/video/332536144?byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                        
+                <div class="image-project">
+                    <img src="images/headache/headache-project-1-medium.jpg 960w" srcset="images/headache/headache-project-1-small.jpg 480w, images/headache/headache-project-1-medium.jpg 960w, images/headache/headache-project-1-large.jpg 1920w"
+                        sizes="(max-width : 800px) calc(100vw - 80px), 960px" alt="Picture of the POTUS Painkiller project">
+                </div>
+
+
 
                 <div class="project-copy">
 
